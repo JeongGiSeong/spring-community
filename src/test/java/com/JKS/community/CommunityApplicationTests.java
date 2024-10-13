@@ -1,10 +1,10 @@
 //package com.JKS.community;
 //
 //import com.JKS.community.dto.*;
-//import com.JKS.community.service.CategoryService;
-//import com.JKS.community.service.CommentService;
-//import com.JKS.community.service.MemberService;
-//import com.JKS.community.service.PostService;
+//import com.JKS.community.board.service.CategoryService;
+//import com.JKS.community.board.service.CommentService;
+//import com.JKS.community.user.service.MemberService;
+//import com.JKS.community.board.service.PostService;
 //import org.junit.jupiter.api.Test;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.test.context.SpringBootTest;

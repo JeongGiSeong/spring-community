@@ -1,6 +1,6 @@
 package com.JKS.community.config;
 
-import com.JKS.community.security.UserDetailsService;
+import com.JKS.community.user.service.UserDetailsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

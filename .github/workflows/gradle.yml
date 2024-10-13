@@ -1,10 +1,10 @@
 name: Java Build and Docker Deployment
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+#on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.CONFIG_TOKEN }}
           submodules: recursive
-          
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -29,7 +29,7 @@ jobs:
 
       - name: Copy config files
         run: find config -type f ! -name 'readme.md' -exec cp -t src/main/resources/ {} +
-          
+
       - name: Run tests
         run: ./gradlew test
         env:
@@ -57,7 +57,7 @@ jobs:
 
       - name: Copy config files
         run: find config -type f ! -name 'readme.md' -exec cp -t src/main/resources/ {} +
-      
+
       # 2. Spring Boot 애플리케이션 빌드
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3

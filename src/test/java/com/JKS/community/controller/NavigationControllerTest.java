@@ -1,14 +1,14 @@
 package com.JKS.community.controller;
 
-import com.JKS.community.dto.CategoryDto;
-import com.JKS.community.dto.MemberDto;
-import com.JKS.community.dto.PostDto;
-import com.JKS.community.entity.Member;
-import com.JKS.community.security.UserDetailsService;
-import com.JKS.community.service.CategoryService;
-import com.JKS.community.service.CommentService;
-import com.JKS.community.service.MemberService;
-import com.JKS.community.service.PostService;
+import com.JKS.community.board.dto.CategoryDto;
+import com.JKS.community.user.dto.MemberDto;
+import com.JKS.community.board.dto.PostDto;
+import com.JKS.community.user.domain.Member;
+import com.JKS.community.user.service.UserDetailsService;
+import com.JKS.community.board.service.CategoryService;
+import com.JKS.community.board.service.CommentService;
+import com.JKS.community.user.service.MemberService;
+import com.JKS.community.board.service.PostService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
