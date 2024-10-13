@@ -1,10 +1,10 @@
 package com.JKS.community.controller;
 
-import com.JKS.community.dto.MemberDto;
-import com.JKS.community.dto.MemberFormDto;
+import com.JKS.community.user.dto.MemberDto;
+import com.JKS.community.user.dto.MemberFormDto;
 import com.JKS.community.exception.CustomException;
 import com.JKS.community.exception.ErrorCode;
-import com.JKS.community.service.MemberService;
+import com.JKS.community.user.service.MemberService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

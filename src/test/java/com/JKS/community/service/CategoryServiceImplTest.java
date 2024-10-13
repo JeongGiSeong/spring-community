@@ -1,9 +1,10 @@
 package com.JKS.community.service;
 
-import com.JKS.community.dto.CategoryDto;
-import com.JKS.community.dto.CategoryFormDto;
-import com.JKS.community.entity.Category;
-import com.JKS.community.repository.CategoryRepository;
+import com.JKS.community.board.dto.CategoryDto;
+import com.JKS.community.board.dto.CategoryFormDto;
+import com.JKS.community.board.domain.Category;
+import com.JKS.community.board.repository.CategoryRepository;
+import com.JKS.community.board.service.CategoryServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

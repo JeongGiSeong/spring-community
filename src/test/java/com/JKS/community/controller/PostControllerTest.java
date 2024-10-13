@@ -1,9 +1,10 @@
 package com.JKS.community.controller;
 
-import com.JKS.community.dto.PageRequestDto;
-import com.JKS.community.dto.PostDto;
-import com.JKS.community.dto.PostFormDto;
-import com.JKS.community.service.PostService;
+import com.JKS.community.board.controller.PostController;
+import com.JKS.community.board.dto.PageRequestDto;
+import com.JKS.community.board.dto.PostDto;
+import com.JKS.community.board.dto.PostFormDto;
+import com.JKS.community.board.service.PostService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

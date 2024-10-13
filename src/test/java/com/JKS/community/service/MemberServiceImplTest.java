@@ -1,11 +1,12 @@
 package com.JKS.community.service;
 
-import com.JKS.community.dto.MemberDto;
-import com.JKS.community.dto.MemberFormDto;
-import com.JKS.community.entity.Member;
+import com.JKS.community.user.dto.MemberDto;
+import com.JKS.community.user.dto.MemberFormDto;
+import com.JKS.community.user.domain.Member;
 import com.JKS.community.exception.CustomException;
 import com.JKS.community.exception.ErrorCode;
-import com.JKS.community.repository.MemberRepository;
+import com.JKS.community.user.repository.MemberRepository;
+import com.JKS.community.user.service.MemberServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
