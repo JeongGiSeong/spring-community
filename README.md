@@ -41,8 +41,7 @@
 
 ---
 ## 프로젝트 소개 📖
-이 프로젝트는 김영한님의 스프링부트 강의를 시작으로 백엔드 개발의 세계에 입문한 저의 첫 주요 작업입니다.  
-본 프로젝트는 Spring Boot를 기반으로 한 웹 애플리케이션으로, 다양한 CRUD 기능과 API 개발, 사용자 인증 및 권한 관리를 포함합니다.
+이 프로젝트는 Spring Boot를 기반으로 하여 회원가입, 로그인, 댓글 및 대댓글, 추천 기능 등을 포함하여, 사용자에게 보다 나은 소통의 장을 제공하고 정보를 효율적으로 관리하는 것을 목표로 합니다.
 
 ---
 ## 프로젝트 목적 🎯
@@ -93,9 +92,6 @@
 
 - **새로운 기술의 학습과 적응**: Spring Boot, Spring Security, JPA, Docker, GitHub Actions, Azure VM 등 새로운 기술을 배우고 적응하는 과정에서 기술적 유연성과 학습 능력이 크게 향상되었습니다.
 
-이러한 경험과 성장은 저를 더욱 성숙한 개발자로 발전시켰으며, 앞으로의 개발 생활에 있어 소중한 자산이 될 것입니다.  
-지속적인 학습과 성장을 통해 더 나은 개발자로 발전하기 위한 확고한 기반을 마련했다고 자부합니다.
-
 ---
 ## 스크린샷 📸
 - 메인 페이지  ![image](https://github.com/JungKiSung1012/spring-community/assets/80134129/5ff50bff-2a6b-41b7-94f2-13efe79918ee)
@@ -103,6 +99,3 @@
 - 게시글 조회 페이지  ![image](https://github.com/JungKiSung1012/spring-community/assets/80134129/cafbfd6e-1a00-4261-9fc3-454346a4da6e)
 - 댓글/대댓글 ![image](https://github.com/JungKiSung1012/spring-community/assets/80134129/a0338e0a-862b-4bb9-bc44-1221af3477ce)
 - Swagger API 문서 ![image](https://github.com/JungKiSung1012/spring-community/assets/80134129/b4a4e232-1a21-4ebc-84db-7be1210629d5)
-- GitHub Actions CI/CD
-- 테스트 코드
----
